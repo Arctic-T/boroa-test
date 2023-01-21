@@ -1,10 +1,21 @@
-import './App.css'
+import Navbar from "./components/Navbar";
+import TextFullWidth from "./components/TextFullWidth";
+import Slider from "./components/Slider";
+import Repository from "./components/Repository";
+import News from "./components/News";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <Navbar />
+      <TextFullWidth />
+      <Slider />
+      <Repository />
+      <News />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
