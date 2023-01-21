@@ -5,9 +5,11 @@ import Repository from "./components/Repository";
 import News from "./components/News";
 import Footer from "./components/Footer";
 
+import "./styles/styles.scss";
+
 function App() {
   return (
-    <div>
+    <div class="root">
       <Navbar />
       <TextFullWidth />
       <Slider />
