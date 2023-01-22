@@ -1,0 +1,70 @@
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 86px 61px 20px 63px;
+}
+
+.footer-content {
+  display: flex;
+  margin-bottom: 38px;
+}
+
+.footer-boron {
+  width: 80%;
+}
+
+.footer-boron-icon {
+  margin-bottom: 87px;
+}
+
+.footer-news {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  max-width: 356px;
+  margin-bottom: 40px;
+}
+
+.footer-information {
+  display: flex;
+  align-items: center;
+}
+
+.footer-information-button {
+  padding: 10px 32px 10px 29px;
+  background-color: #77d7db;
+  border: 0;
+  outline: 0;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  margin-right: 57px;
+}
+
+.footer-list-wrapped {
+  width: 20%;
+}
+
+.footer-list {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 42px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.footer-news,
+.footer-by,
+.footer-list {
+  text-transform: capitalize;
+}
