@@ -1,0 +1,98 @@
+.repository {
+  padding: 30px;
+
+  @media (min-width: 960px) {
+    padding: 30px 120px;
+  }
+}
+
+.repository-heading {
+  text-align: center;
+  margin-bottom: 40px;
+
+  @media (min-width: 960px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.repository-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.repository-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+
+  @media (min-width: 960px) {
+    max-width: 206px;
+    text-align: left;
+    font-size: 16px;
+  }
+}
+
+.repository-list {
+  padding-left: 0;
+}
+
+.repository-item {
+  border-bottom: 1px solid;
+  padding: 30px 10px;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 32px;
+
+  &:first-child {
+    border-top: 1px solid;
+  }
+
+  @media (min-width: 960px) {
+    padding: 30px 40px;
+
+    &:hover {
+      .repository-item-arrow {
+        background-color: #000000;
+
+        path {
+          stroke: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+.repository-item-link {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  &:hover {
+    .repository-item-image {
+      display: block;
+    }
+  }
+}
+
+.repository-item-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 960px) {
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+  }
+}
+
+.repository-item-image {
+  position: absolute;
+  right: 80px;
+  top: -181px;
+  display: none;
+}

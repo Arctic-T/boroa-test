@@ -136,10 +136,6 @@
   color: #ffffff;
   text-decoration: none;
   margin-bottom: 26px;
-
-  // &:last-child {
-  //   margin-bottom: 0;
-  // }
 }
 
 .footer-copyright {
@@ -161,6 +157,14 @@
 
   @media (min-width: 960px) {
     font-size: 14px;
+  }
+}
+
+.footer-by {
+  margin-bottom: 20px;
+
+  @media (min-width: 960px) {
+    margin-bottom: 0;
   }
 }
 
