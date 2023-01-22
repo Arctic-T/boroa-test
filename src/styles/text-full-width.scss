@@ -1,0 +1,13 @@
+.text-full-width {
+  background-color: #ff5e43;
+  padding: 35px 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+
+  @media (min-width: 960px) {
+    font-size: 64px;
+    line-height: 88px;
+    padding: 103px 120px;
+  }
+}
