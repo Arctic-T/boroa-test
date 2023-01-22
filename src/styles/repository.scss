@@ -92,7 +92,11 @@
 
 .repository-item-image {
   position: absolute;
-  right: 80px;
+  right: -17px;
   top: -181px;
   display: none;
+
+  @media (min-width: 960px) {
+    right: 80px;
+  }
 }
