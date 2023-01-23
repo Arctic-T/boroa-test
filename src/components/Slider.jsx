@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Twitter from "../icons/twiiter";
+import Twitter from "../icons/twitter";
 import RightArrow from "../icons/right-arrow";
 
 export default function Slider() {

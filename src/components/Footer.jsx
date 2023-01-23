@@ -1,5 +1,5 @@
 import Boron from "../icons/boron";
-import Twitter from "../icons/twiiter";
+import Twitter from "../icons/twitter";
 import Youtube from "../icons/youtube";
 import RightArrow from "../icons/right-arrow";
 
