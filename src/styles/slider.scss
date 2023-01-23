@@ -1,0 +1,178 @@
+.slider-container {
+  background-color: #1da1f2;
+  padding: 30px 40px;
+  width: 100%;
+
+  @media (min-width: 960px) {
+    width: 50%;
+    padding: 104px 95px 77px;
+  }
+}
+
+.slider-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+
+  @media (min-width: 960px) {
+    font-size: 16px;
+    margin-bottom: 55px;
+  }
+}
+
+.slider-icon {
+  margin-bottom: 20px;
+
+  path {
+    fill: #ffffff;
+  }
+
+  @media (min-width: 960px) {
+    margin-bottom: 36px;
+  }
+}
+
+.slider-name {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+
+  @media (min-width: 960px) {
+    font-size: 42px;
+    margin-bottom: 6px;
+  }
+}
+
+.slider-handle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  color: #ffffff;
+
+  @media (min-width: 960px) {
+    margin-bottom: 40px;
+  }
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 960px) {
+    flex-direction: row-reverse;
+  }
+}
+
+.slider-content {
+  margin-bottom: 40px;
+  display: none;
+
+  &.is-active {
+    display: block;
+    animation: fadeIn 5s;
+  }
+}
+
+.slider-tweet-time {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 32px;
+}
+
+.slider-tweet-content {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+
+  @media (min-width: 960px) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.slider-tweet-link {
+  color: #ffffff;
+}
+
+.slider-buttons-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+
+  @media (min-width: 960px) {
+    display: none;
+  }
+}
+
+.slider-arrows {
+  display: none;
+
+  @media (min-width: 960px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.slide-item-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+  width: 58px;
+  border-radius: 50%;
+
+  &.first {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+
+  &:hover,
+  &:active {
+    background-color: #ffffff;
+  }
+}
+
+.slider-button {
+  background-color: #000000;
+  outline: 0;
+  border: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &.is-active {
+    background-color: #ffffff;
+  }
+}
+
+.slider-figure {
+  width: 100%;
+
+  @media (min-width: 960px) {
+    width: 50%;
+  }
+}
+
+.slider-img {
+  display: block;
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
