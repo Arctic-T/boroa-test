@@ -11,7 +11,7 @@ export default function Repository() {
       </div>
       <ul className="repository-list">
         <li className="repository-item">
-          <a href="#" className="repository-item-link">
+          <a href="javascript:void(0)" className="repository-item-link">
             Autor
             <img
               src="/image.png"
@@ -25,7 +25,7 @@ export default function Repository() {
         </li>
 
         <li className="repository-item">
-          <a href="#" className="repository-item-link">
+          <a href="javascript:void(0)" className="repository-item-link">
             Título
             <img
               src="/image.png"
@@ -39,7 +39,7 @@ export default function Repository() {
         </li>
 
         <li className="repository-item">
-          <a href="#" className="repository-item-link">
+          <a href="javascript:void(0)" className="repository-item-link">
             Líneas de Navegación
             <img
               src="/image.png"
@@ -53,7 +53,7 @@ export default function Repository() {
         </li>
 
         <li className="repository-item">
-          <a href="#" className="repository-item-link">
+          <a href="javascript:void(0)" className="repository-item-link">
             Descripción
             <img
               src="/image.png"

@@ -10,13 +10,13 @@ export default function RightArrow() {
       <path
         d="M11.4395 1L17.9395 7.5L11.4395 14"
         stroke="black"
-        stroke-width="2"
+        strokeWidth="2"
       />
       <path
         d="M17.4691 7.5H1.00024"
         stroke="black"
-        stroke-width="2"
-        stroke-linecap="square"
+        strokeWidth="2"
+        strokeLinecap="square"
       />
     </svg>
   );

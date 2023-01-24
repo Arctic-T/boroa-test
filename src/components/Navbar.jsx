@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BoronBlack from "../icons/boron-black";
+import BoronBlackLetter from "../icons/boron-black-letter";
 import HandLens from "../icons/hand-lens";
 import Twitter from "../icons/twitter";
 import Youtube from "../icons/youtube";
@@ -14,8 +15,14 @@ export default function Navbar() {
 
   return (
     <nav className={`navbar ${isOpen ? "is-active" : ""}`}>
-      <a href="#" className="navbar-icon">
-        <BoronBlack />
+      <a href="javascript:void(0)" className="navbar-icon">
+        <span className="navbar-icon-mobile">
+          <BoronBlack />
+        </span>
+
+        <span className="navbar-icon-desktop">
+          <BoronBlackLetter />
+        </span>
       </a>
       <button className="navbar-menu-btn" onClick={openNavbar}>
         <p className="navbar-menu-btn-title">{isOpen ? "Cerrar" : "Menu"}</p>
@@ -29,27 +36,29 @@ export default function Navbar() {
       </button>
       <div className={`navbar-menu ${isOpen ? "is-active" : ""}`}>
         <div className="navbar-menu-links">
-          <a href="#" className="navbar-menu-links-link">
+          <a href="javascript:void(0)" className="navbar-menu-links-link">
             acerca de
           </a>
-          <a href="#" className="navbar-menu-links-link">
+          <a href="javascript:void(0)" className="navbar-menu-links-link">
             proyectos
           </a>
-          <a href="#" className="navbar-menu-links-link">
+          <a href="javascript:void(0)" className="navbar-menu-links-link">
             repositorio
           </a>
-          <a href="#" className="navbar-menu-links-link">
+          <a href="javascript:void(0)" className="navbar-menu-links-link">
             novedades
           </a>
-          <a href="#" className="navbar-menu-links-link">
+          <a href="javascript:void(0)" className="navbar-menu-links-link">
             contacto
           </a>
-          <HandLens />
-          <div className="navbar-languages">
-            <span>EN </span>/
-            <span>
-              <strong> ES</strong>
-            </span>
+          <div className="navbar-menu-lens-lang">
+            <HandLens />
+            <div className="navbar-languages">
+              <span>EN </span>/
+              <span>
+                <strong> ES</strong>
+              </span>
+            </div>
           </div>
         </div>
         <div className="navbar-social">

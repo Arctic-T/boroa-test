@@ -9,7 +9,7 @@ import "./styles/styles.scss";
 
 function App() {
   return (
-    <div class="root">
+    <div className="root">
       <Navbar />
       <TextFullWidth />
       <Slider />

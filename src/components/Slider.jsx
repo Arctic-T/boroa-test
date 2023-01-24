@@ -39,15 +39,15 @@ export default function Slider() {
             <p className="slider-tweet-time">2 hs</p>
             <div className="slider-tweet-content">
               📌
-              <a className="slider-tweet-link" href="">
+              <a className="slider-tweet-link" href="javascript:void(0)">
                 #OportunidadLaboral
               </a>{" "}
               Llamado abierto para sumarse al equipo de{" "}
-              <a className="slider-tweet-link" href="">
+              <a className="slider-tweet-link" href="javascript:void(0)">
                 @Boronstudio
               </a>{" "}
               master digital. 👩‍💻👨‍💻 <br /> Más información{" "}
-              <a className="slider-tweet-link" href="">
+              <a className="slider-tweet-link" href="javascript:void(0)">
                 👉 https://bit.ly/2OobIHS
               </a>
             </div>
@@ -61,15 +61,15 @@ export default function Slider() {
             <p className="slider-tweet-time">4 hs</p>
             <div className="slider-tweet-content">
               📌
-              <a className="slider-tweet-link" href="">
+              <a className="slider-tweet-link" href="javascript:void(0)">
                 #OportunidadLaboral2
               </a>{" "}
               Llamado abierto para sumarse al equipo de{" "}
-              <a className="slider-tweet-link" href="">
+              <a className="slider-tweet-link" href="javascript:void(0)">
                 @Boronstudio
               </a>{" "}
               master digital. 👩‍💻👨‍💻 <br /> Más información{" "}
-              <a className="slider-tweet-link" href="">
+              <a className="slider-tweet-link" href="javascript:void(0)">
                 👉 https://bit.ly/2OobIHS
               </a>
             </div>
@@ -83,15 +83,15 @@ export default function Slider() {
             <p className="slider-tweet-time">6 hs</p>
             <div className="slider-tweet-content">
               📌
-              <a className="slider-tweet-link" href="">
+              <a className="slider-tweet-link" href="javascript:void(0)">
                 #OportunidadLaboral3
               </a>{" "}
               Llamado abierto para sumarse al equipo de{" "}
-              <a className="slider-tweet-link" href="">
+              <a className="slider-tweet-link" href="javascript:void(0)">
                 @Boronstudio
               </a>{" "}
               master digital. 👩‍💻👨‍💻 <br /> Más información{" "}
-              <a className="slider-tweet-link" href="">
+              <a className="slider-tweet-link" href="javascript:void(0)">
                 👉 https://bit.ly/2OobIHS
               </a>
             </div>

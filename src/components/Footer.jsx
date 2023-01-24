@@ -12,27 +12,27 @@ export default function Footer() {
         </div>
         <div className="footer-links">
           <div className="footer-links-group">
-            <a href="#" className="footer-links-link">
+            <a href="javascript:void(0)" className="footer-links-link">
               acerca de
             </a>
-            <a href="#" className="footer-links-link">
+            <a href="javascript:void(0)" className="footer-links-link">
               proyectos
             </a>
-            <a href="#" className="footer-links-link">
+            <a href="javascript:void(0)" className="footer-links-link">
               repositorio
             </a>
-            <a href="#" className="footer-links-link">
+            <a href="javascript:void(0)" className="footer-links-link">
               novedades
             </a>
           </div>
           <div className="footer-links-group">
-            <a href="#" className="footer-links-link">
+            <a href="javascript:void(0)" className="footer-links-link">
               contacto
             </a>
-            <a href="#" className="footer-links-link">
+            <a href="javascript:void(0)" className="footer-links-link">
               lineas de investigación
             </a>
-            <a href="#" className="footer-links-link">
+            <a href="javascript:void(0)" className="footer-links-link">
               información financiera
             </a>
           </div>
