@@ -4,9 +4,9 @@ UI/UX Test for Boron Studio
 
 ## Pre requirements
 
-`npm or yarn`
+`npm` or `yarn`
 
-## Install
+## Install This Project
 
 ```
 yarn
@@ -29,3 +29,5 @@ or
 ```
 npm run dev
 ```
+
+Go to: http://localhost:5174/
