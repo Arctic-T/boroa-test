@@ -6,7 +6,7 @@ UI/UX Test for Boron Studio
 
 `npm` or `yarn`
 
-## Install
+## Install This Project
 
 ```
 yarn
